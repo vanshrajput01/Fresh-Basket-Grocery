@@ -276,3 +276,33 @@ body{
     position: absolute;
     z-index: 1;
   }
+
+/* after-search-section */
+
+#after-search-section{
+    margin-top: 500px;
+}
+
+#after-search-section-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+#after-search-section-Subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    height: 300px;
+    background-color: #f3f3f3bf;
+    border-radius: 15px;
+}
+
+#after-search-section-Subcontainer img{
+    width: 150px;
+}
