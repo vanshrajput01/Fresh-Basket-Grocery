@@ -165,7 +165,7 @@ body{
 
 #search-section-container01{
     margin-top: 40px;
-    border: 2px solid red;
+    border: 2px solid white;
     width: 100%;
 
     
@@ -184,8 +184,6 @@ body{
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.783), rgba(230, 230, 230, 0.763));
     width: 100vw;
     height: 70vh;
-
-    border: 2px solid black;
     position: absolute;
     z-index: 1;
 }
