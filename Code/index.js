@@ -12,12 +12,12 @@ function myFunction() {
     }
   }
 
-  window.onscroll = function() {myFunction()};
+  window.onscroll = function() {myFunctionNav()};
 
   var navbar = document.getElementById("nav-bar");
   var sticky = navbar.offsetTop;
   
-  function myFunction() {
+  function myFunctionNav() {
     if (window.pageYOffset >= sticky) {
       navbar.classList.add("sticky")
       navbar.style.backgroundColor = "white"
