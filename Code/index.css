@@ -316,7 +316,7 @@ body{
 }
 
 #our-products-container01{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
