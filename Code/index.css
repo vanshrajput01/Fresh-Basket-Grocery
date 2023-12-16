@@ -579,5 +579,95 @@ body{
 }
 
 
+/* Bestseller Products */
 
+#Bestseller-Products{
+  margin-top: 100px;
+
+}
+
+#Bestseller-Products-container01{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: ;
+
+
+}
+
+#Bestseller-Products-container01 h1{
+  font-size: 55px;
+  color: rgb(78, 78, 78) ;
+}
+
+
+#Bestseller-Products-container01 p{
+  width: 60%;
+}
+
+
+#Bestseller-Products-container02{
+  margin-left: 30px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+#Bestseller-Products-Subcontainer01{
+  border-radius: 20px;
+  background-color: #f3f3f3bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  height: 200px;
+}
+
+#Bestseller-Products-Subcontainer01:hover{
+  box-shadow: 2px 2px 5px 5px rgb(224, 224, 224);
+}
+
+#Bestseller-Products-Subcontainer01-left img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#Bestseller-Products-Subcontainer01-right{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 15px;
+}
+
+#Bestseller-Products-Subcontainer01-right h3{
+  font-size: 24px;
+}
+
+#Bestseller-Products-Subcontainer01-right img{
+  width: 80px;
+
+}
+
+#Bestseller-Products-Subcontainer01-right div i{
+  position: absolute;
+  padding-top: 7px;
+  padding-left: 10px;
+  color:  rgb(116, 197, 17) ;
+}
+
+#Bestseller-Products-Subcontainer01-right div button{
+  padding: 5px 27px;
+  color:  rgb(116, 197, 17);
+  border: 1.5px solid  rgb(116, 197, 17);
+  border-radius: 20px;
+  margin-right: 10px;
+}
 
