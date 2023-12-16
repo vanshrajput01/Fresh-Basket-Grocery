@@ -1,3 +1,13 @@
+let productbtn01 = document.querySelector("#our-products-container01-btn01")
+
+let productbtn02 = document.querySelector("#our-products-container01-btn02")
+
+let productbtn03 = document.querySelector("#our-products-container01-btn03")
+
+let fruitsContainer = document.querySelector("#our-products-container02-fruits-container")
+
+let vegetableContainer = document.querySelector("#our-products-container02-vegetables-container")
+
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
@@ -51,3 +61,29 @@ let swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+// Product container reated logic
+
+productbtn01.addEventListener("click",showproduct01)
+productbtn02.addEventListener("click",showproduct02)
+productbtn03.addEventListener("click",showproduct03)
+
+function showproduct01(){
+  vegetableContainer.style.visibility =  "inherit"
+  fruitsContainer.style.visibility = "inherit"
+  vegetableContainer.style.marginTop = "40px"
+}
+
+
+function showproduct02(){
+  vegetableContainer.style.visibility =  "inherit"
+  vegetableContainer.style.marginTop = "-430px"
+  fruitsContainer.style.visibility = "hidden"
+}
+
+function showproduct03(){
+  vegetableContainer.style.visibility =  "hidden"
+  // vegetableContainer.style.marginTop = "-430px"
+  fruitsContainer.style.visibility = "inherit"
+}

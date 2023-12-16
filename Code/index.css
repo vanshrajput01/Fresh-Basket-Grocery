@@ -308,3 +308,205 @@ body{
 #after-search-section-Subcontainer img{
     width: 150px;
 }
+
+/* Our product section */
+
+#our-products{
+  margin-top: 100px;
+}
+
+#our-products-container01{
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#our-products-container01 h1{
+  font-size: xx-large;
+}
+
+#our-products-container01-btn{
+
+  display: flex;
+  gap: 30px;
+}
+
+#our-products-container01-btn button{
+  padding: 6px 15px;
+  border-radius:20px ;
+  border: none;
+  cursor: pointer;
+
+}
+
+#our-products-container01-btn button:hover{
+  background-color: orange;
+  color: #fff;
+  border: 1px solid orange;
+  
+}
+
+
+/* Fruits-container */
+
+#our-products-container02{
+ margin-top: 50px; 
+
+}
+
+#our-products-container02-fruits-container{
+  /* visibility: hidden; */
+
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  margin-left: 30px;
+}
+
+#Fruits-container01{
+  margin-left: 20px;
+  border: 2px solid green;
+  width: 250px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid orange;
+  border-radius: 20px;
+
+  
+
+}
+
+#Fruits-container01 h4{
+  z-index: 1;
+  position: absolute;
+  background-color: orange;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
+
+  
+}
+
+#Fruits-container01:hover{
+  box-shadow: 1px 5px 5px 7px rgb(235, 235, 235);
+}
+
+#Fruits-container01 img{
+  overflow: hidden;
+  width: 247px;
+  height: 200px;
+  transition: all 0.5s ease-in;
+  
+}
+
+#Fruits-container01 img:hover{ 
+  transform: scale(1.1,1.1);
+  
+  
+}
+
+#Fruits-container01 div i{
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 8px;
+  color:  rgb(116, 197, 17);
+
+}
+
+#Fruits-container01 button{
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: white;
+  color:  rgb(116, 197, 17);
+  border: 1.5px solid orange;
+}
+
+
+/* vegetables container */
+
+
+#our-products-container02-vegetables-container{
+  /* visibility: hidden; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  margin-left: 30px;
+}
+
+#Vegetables-container01{
+  margin-left: 20px;
+  border: 2px solid green;
+  width: 250px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid orange;
+  border-radius: 20px;
+
+  
+
+}
+
+#Vegetables-container01 h4{
+  z-index: 1;
+  position: absolute;
+  background-color:  rgb(116, 197, 17);
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
+
+  
+}
+
+#Vegetables-container01:hover{
+  box-shadow: 1px 5px 5px 7px rgb(235, 235, 235);
+}
+
+#Vegetables-container01 img{
+  overflow: hidden;
+  width: 247px;
+  height: 200px;
+  transition: all 0.5s ease-in;
+  
+}
+
+#Vegetables-container01 img:hover{ 
+  transform: scale(1.1,1.1);
+  
+  
+}
+
+#Vegetables-container01 div i{
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 8px;
+  color:  rgb(116, 197, 17);
+
+}
+
+#Vegetables-container01 button{
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: white;
+  color:  rgb(116, 197, 17);
+  border: 1.5px solid orange;
+}
+
+
