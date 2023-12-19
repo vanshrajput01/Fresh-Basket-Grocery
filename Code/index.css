@@ -1149,6 +1149,133 @@ body {
 }
 
 
+/* Footer section */
+
+#footer-section{
+  margin-top: 100px;
+  width: 100vw;
+  background-color:#5f6870;
+}
+
+#footer-section-container01{
+  padding-top: 40px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+#footer-section-subcontainer01 h1{
+  color: rgb(116, 197, 17);
+  font-size: 40px;
+
+}
+
+#footer-section-subcontainer01 p{
+  margin-top: 5px;
+  color: orange;
+  font-size: large;
+}
+
+#footer-section-subcontainer02 input{
+  border-radius: 20px;
+  width: 400px;
+  padding: 10px 15px;
+  border: 2px solid rgb(116, 197, 17);
+
+}
+
+#footer-section-subcontainer02 button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(116, 197, 17);
+  color: #fff;
+  border: 2px solid rgb(116, 197, 17);
+}
+
+#footer-section-subcontainer03{
+  display: flex;
+  gap: 20px;
+}
+
+#footer-section-subcontainer03 i{
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 10px;
+  color: orange;
+  font-size: large;
+}
+
+#footer-section-subcontainer03 i:hover{
+  color: #fff;
+}
+
+
+#footer-section-container02{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  padding-top: 50px;
+
+}
+
+#footer-section-subcontainer02-01{
+  width: 20vw;
+}
+
+#footer-section-subcontainer02-01 p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: rgb(189, 189, 189);
+}
+
+#footer-section-subcontainer02-01 button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid  orange;
+  color:  rgb(116, 197, 17);
+  background-color:#5f6870;
+
+
+}
+
+#footer-section-subcontainer02-02 ul{
+  list-style: none;
+
+}
+
+#footer-section-subcontainer02-02 ul li {
+  cursor: pointer;
+
+  padding-top: 10px;
+}
+
+#footer-section-subcontainer02-02 ul li a{
+  text-decoration: none;
+  color: rgb(193, 193, 193);
+  
+}
+
+#footer-section-subcontainer02-02 ul li a:hover{
+  color: orange;
+}
+
+#footer-section-subcontainer02-03 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+
+
+
+
+
+
 
 
 
