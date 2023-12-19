@@ -1,3 +1,24 @@
+const mobile_nav = document.querySelector('.mobile-navbar-btn')
+const navHeader = document.querySelector('.header');
+
+const toggleNavBar = () =>{
+
+  navHeader.classList.toggle("active")
+  
+};
+
+mobile_nav.addEventListener("click",()=> toggleNavBar());
+
+
+
+
+
+
+
+
+
+
+
 let productbtn01 = document.querySelector("#our-products-container01-btn01")
 
 let productbtn02 = document.querySelector("#our-products-container01-btn02")
