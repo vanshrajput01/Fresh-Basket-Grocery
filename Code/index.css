@@ -1275,6 +1275,26 @@ body {
   width: 250px;
 }
 
+#footer-section-container03{
+  display: flex;
+  padding: 25px 45px;
+  justify-content: space-between;
+  color: rgb(199, 199, 199);
+
+}
+
+#footer-section-container03 div span{
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  
+}
+
+#footer-section-container03 div b{
+  color: rgb(116, 197, 17);
+  text-decoration: underline;
+}
+
 
 
 
