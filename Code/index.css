@@ -1217,7 +1217,7 @@ body {
   justify-content: space-around;
   align-items: center;
   color: #fff;
-  padding-top: 50px;
+  padding-top: 20px;
 
 }
 
@@ -1264,10 +1264,18 @@ body {
 }
 
 #footer-section-subcontainer02-03 {
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
+
+#footer-section-subcontainer02-03 div img{
+  margin-top: 10px;
+  width: 250px;
+}
+
+
 
 
 
