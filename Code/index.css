@@ -11,6 +11,8 @@ html{
   overflow-x: hidden;
 }
 
+
+
 body{
   width: 100vw;
   overflow-x: hidden;
@@ -20,6 +22,7 @@ body{
 
 
 }
+
 
 
 
@@ -1323,25 +1326,37 @@ body{
 
 
 
-@media (max-width : 1024px){
+/*  *******************************************************************************************                                    responsive for Mobile *************************************************************************************************************************************************************************************/
+
+
+
+@media (max-width : 1024px) {
+  html{
+    overflow-x: hidden;
+  }
+
   body{
+    overflow-x: hidden;
     width: 100vw;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
   }
 
 
 
   #header-first-container{
-    visibility: hidden;
+    display: none;
   }
 
+
   #nav-bar{
+    margin-top: -15px;
 
     position: relative;
     background-color: white; 
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
-    width: 100vw;
+    width: 100%;
     /* border: 1px solid rgb(210, 210, 210); */
     z-index: 999;
 
@@ -1434,152 +1449,357 @@ body{
   font-size: x-large;
 }
 
-#search-section{
-  overflow-x: hidden;
+/* #search-section{
+  display: none;
+} */
 
-  width: 100vw;
+
+#our-products {
   margin-top: 100px;
 }
 
-
-#search-section-container01 {
-  margin-top: 20px;
-  border: 2px solid white;
-  width: 100%;
-  
-
-
-}
-
-#search-section-container01 img {
-  position: absolute;
-  width: 100vw;
-  height: 50vh;
-  z-index: -1;
-}
-
-#search-section-container02 {
+#our-products-container01 {
+  /* border: 2px solid red; */
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.783), rgba(230, 230, 230, 0.763));
-  width: 100%;
-  height: 50vh;
-  position: absolute;
-  z-index: -1;
-}
-
-#search-subcontainer01 {
-  margin-top: 30px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: start;
-  align-items: start;
-  width: 100%;
-  padding-left: 20px;
-
-}
-
-#search-subcontainer01 p {
-  margin-top:100px;
-  width: 100vw;
-  color: orange;
-  font-weight: 600;
-  font-size: x-large;
-}
-
-#search-subcontainer01 h1 {
-  width: 100vw;
-  font-size: 40px;
-  color: rgb(116, 197, 17);
-}
-
-#search-subcontainer01 div input {
-  width: 200px;
-  padding: 10px 0px;
-  border-radius: 30px;
-  border: 2px solid rgb(116, 197, 17);
-  padding-left: 15px;
-}
-
-#search-subcontainer01 div button {
-  padding-right: 10px;
-  padding: 8px 20px;
-  border-radius: 20px;
-  background-color: rgb(116, 197, 17);
-  border: 2px solid rgb(116, 197, 17);
-  color: white;
-}
-
-
-#search-subcontainer01 div button:hover {
-  color: rgb(116, 197, 17);
-  border: 2px solid rgb(116, 197, 17);
-  background-color: #fff;
-}
-
-
-#search-subcontainer02 {
-  display: none;
-}
-
-#after-search-section-main-container{
-  margin-top: 450px;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#after-search-section-Subcontainer{
-  margin-bottom: 20px;
-}
-
-#our-products-container01{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-}
-
-#our-products-container01 h1{
-  padding-left: 20px;
-  font-size: x-large;
-
-
+#our-products-container01 h1 {
+  font-size: xx-large;
 }
 
 #our-products-container01-btn {
+
+  display: flex;
+  gap: 30px;
+}
+
+#our-products-container01-btn button {
+  padding: 6px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+}
+
+#our-products-container01-btn button:hover {
+  background-color: orange;
+  color: #fff;
+  border: 1px solid orange;
+
+}
+
+
+/* Fruits-container */
+
+#our-products-container02 {
+  margin-top: 50px;
+
+}
+
+#our-products-container02-fruits-container {
+  overflow-x: hidden;
+
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  margin-left: 30px;
+}
+
+#Fruits-container01 {
+  margin-left: 20px;
+  border: 2px solid green;
+  width: 250px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid orange;
+  border-radius: 20px;
+  padding-bottom: 20px;
+
+
+
+}
+
+#Fruits-container01 h4 {
+  z-index: 1;
+  position: absolute;
+  background-color: orange;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
+
+
+}
+
+#Fruits-container01:hover {
+  box-shadow: 1px 5px 5px 7px rgb(235, 235, 235);
+}
+
+#Fruits-container01 img {
+  overflow: hidden;
+  width: 247px;
+  height: 200px;
+  transition: all 0.5s ease-in;
+
+}
+
+#Fruits-container01 img:hover {
+  transform: scale(1.1, 1.1);
+
+
+}
+
+#Fruits-container01 div i {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 8px;
+  color: rgb(116, 197, 17);
+
+}
+
+#Fruits-container01 button {
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: white;
+  color: rgb(116, 197, 17);
+  border: 1.5px solid orange;
+}
+
+
+/* vegetables container */
+
+
+#our-products-container02-vegetables-container {
+  overflow-x: hidden;
   margin-top: 30px;
   display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  margin-left: 30px;
 }
 
-#our-products-container01-btn  button{
-  padding: 5px 25px;
+#Vegetables-container01 {
+  margin-left: 20px;
+  border: 2px solid green;
+  width: 250px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid orange;
+  border-radius: 20px;
+  padding-bottom: 20px;
+
+
 
 }
 
-#our-products-container02-fruits-container{
+#Vegetables-container01 h4 {
+  z-index: 1;
+  position: absolute;
+  background-color: rgb(116, 197, 17);
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
+
+
+}
+
+#Vegetables-container01:hover {
+  box-shadow: 1px 5px 5px 7px rgb(235, 235, 235);
+}
+
+#Vegetables-container01 img {
+  overflow: hidden;
+  width: 247px;
+  height: 200px;
+  transition: all 0.5s ease-in;
+
+}
+
+#Vegetables-container01 img:hover {
+  transform: scale(1.1, 1.1);
+
+
+}
+
+#Vegetables-container01 div i {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 8px;
+  color: rgb(116, 197, 17);
+
+}
+
+#Vegetables-container01 button {
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: white;
+  color: rgb(116, 197, 17);
+  border: 1.5px solid orange;
+}
+
+
+
+
+/* #our-products-second-section{
+  display: none;
+
+} */
+
+/* #product-slider{
+  display: none;
+
+} */
+
+/* #after-search-section{
+  display: none;
+} */
+
+
+/* #after-our-product-section{
+  display: none;
+} */
+
+/* #Bestseller-Products{
+  display: none;
+} */
+
+#Bestseller-Products {
+  margin-top: 100px;
+
+}
+
+#Bestseller-Products-container01 {
+
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+
+}
+
+#Bestseller-Products-container01 h1 {
+  font-size: 30px;
+  color: rgb(78, 78, 78);
+}
+
+
+#Bestseller-Products-container01 p {
+  width: 90%;
+}
+
+
+#Bestseller-Products-container02 {
+  overflow-x: hidden;
+  /* margin-left: 30px; */
+  margin-top: 50px;
+  row-gap: 45px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
-#our-products-container02-vegetables-container{
+
+#Bestseller-Products-Subcontainer01 {
+  border-radius: 20px;
+  background-color: #f3f3f3bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  height: 200px;
+}
+
+#Bestseller-Products-Subcontainer01:hover {
+  box-shadow: 2px 2px 5px 5px rgb(224, 224, 224);
+}
+
+#Bestseller-Products-Subcontainer01-left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#Bestseller-Products-Subcontainer01-right {
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
+  gap: 15px;
+}
+
+#Bestseller-Products-Subcontainer01-right h3 {
+  font-size: 24px;
+}
+
+#Bestseller-Products-Subcontainer01-right img {
+  width: 80px;
+
+}
+
+#Bestseller-Products-Subcontainer01-right div i {
+  position: absolute;
+  padding-top: 7px;
+  padding-left: 10px;
+  color: rgb(116, 197, 17);
+}
+
+#Bestseller-Products-Subcontainer01-right div button {
+  padding: 5px 27px;
+  color: rgb(116, 197, 17);
+  border: 1.5px solid rgb(116, 197, 17);
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+/* #after-Bestseller-Products-section{
+  display: none;
+} */
+
+
+/* #our-testimonial-section{
+  display: none;
+} */
+/* #footer-section{
+  display: none;
+} */
+
+
 
 }
 
 
 
 
-}
+
+
+
+
+
+
 
 
 

@@ -43,6 +43,7 @@ function myFunction() {
     }
   }
 
+if(window.outerWidth > 1024){
   window.onscroll = function() {myFunctionNav()};
 
   var navbar = document.getElementById("nav-bar");
@@ -65,6 +66,11 @@ function myFunction() {
   
     }
   }
+
+}
+
+
+
 
 let swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
