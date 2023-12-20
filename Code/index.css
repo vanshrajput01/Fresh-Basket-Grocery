@@ -1584,6 +1584,7 @@ body{
 }
 
 #our-products-container01 {
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -1595,7 +1596,6 @@ body{
 }
 
 #our-products-container01 h1 {
-  padding-left: 20px;
 
   font-size: x-large;
 }
@@ -1636,10 +1636,10 @@ body{
 
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-left: 30px;
+  margin-left: 0px;
 }
 
 #Fruits-container01 {
@@ -1716,10 +1716,10 @@ body{
   margin-top: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-left: 30px;
+  margin-left: 0px;
 }
 
 #Vegetables-container01 {
@@ -1787,6 +1787,15 @@ body{
   border: 1.5px solid orange;
 }
 
+#our-products-second-section-container{
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
 
 
 
@@ -1812,6 +1821,73 @@ body{
 /* #Bestseller-Products{
   display: none;
 } */
+
+
+
+#after-our-product-section {
+  margin-top: 100px;
+}
+
+#after-our-product-section-container01 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  gap: 10px;
+  background-color: rgb(255, 177, 43);
+}
+
+#after-our-product-section-container01-left {
+  margin-top: 30px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  width: 100%;
+}
+
+#after-our-product-section-container01-left h1 {
+  font-size: 35px;
+  color: #fff;
+}
+
+
+#after-our-product-section-container01-left h2 {
+  font-size: 30px;
+  color: rgb(107, 107, 107);
+}
+
+#after-our-product-section-container01-left button {
+  margin-top: 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid orange;
+  transition: all .5s ease-in-out;
+}
+
+#after-our-product-section-container01-left button:hover {
+  background-color: #fff;
+  color: orange;
+  transform: scale(1.1);
+
+}
+
+#after-our-product-section-container01-right {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  width: 100%;
+
+}
+
+#after-our-product-section-container01-right img {
+  width: 300px;
+}
 
 #Bestseller-Products {
   margin-top: 100px;
@@ -1904,6 +1980,48 @@ body{
   border: 1.5px solid rgb(116, 197, 17);
   border-radius: 20px;
   margin-right: 10px;
+}
+
+
+#after-Bestseller-Products-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#after-Bestseller-Products-section-container {
+  padding: 30px 30px;
+  border-radius: 20px;
+  background-color: #f3f3f3bf;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 30px;
+}
+
+#after-Bestseller-Products-section-Subcontainer {
+
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  width: 220px;
+  height: 300px;
+}
+
+#after-Bestseller-Products-section-Subcontainer h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: rgb(116, 197, 17);
+
 }
 
 /* #after-Bestseller-Products-section{
