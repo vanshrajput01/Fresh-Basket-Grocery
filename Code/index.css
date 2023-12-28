@@ -1788,7 +1788,7 @@ body{
 }
 
 #our-products-second-section-container{
-  margin-right: 12px;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
