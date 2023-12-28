@@ -192,6 +192,320 @@ body {
 
 /* shop banner section Styling */
 
+#shop-banner-section {
+    width: 100vw;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#shop-banner-section img {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+
+}
+
+#shop-banner-section h3 {
+    font-size: xx-large;
+    color: #fff;
+    font-weight: bold;
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fresh-fruits-search-section */
+
+#Fresh-fruits-search-section {
+    width: 100%;
+}
+
+#Fresh-fruits-search-section h1 {
+    padding-left: 30px;
+    font-size: xx-large;
+    font-weight: 800;
+    color: #47535d;
+}
+
+#Fresh-fruits-search-section-container01 {
+    margin-top: 30px;
+    padding-left: 30px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+#Fresh-fruits-search-section-search-bar input {
+    width: 250px;
+    padding: 10px 10px;
+
+
+    font-size: large;
+    border: 1px solid #606d79;
+    border-radius: 5px;
+
+}
+
+#Fresh-fruits-search-section-search-bar i {
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#Fresh-fruits-search-section-Category {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 14px 20px;
+    background-color: rgb(248, 248, 248);
+}
+
+#Fresh-fruits-search-section-Category #DefaultSorting {
+    background-color: rgb(248, 248, 248);
+
+    padding-left: 10px;
+    border: none;
+}
+
+
+
+
+#CategoriesProduct-section{
+    margin-top: 30px;
+    width: 100vw;
+}
+
+
+#CategoriesProduct-section-container{
+    width: 100%;
+    display: flex;
+
+
+}
+
+#CategoriesProduct-section-container01{
+    padding-left: 20px;
+    width: 25%;
+}
+
+#CategoriesProduct-section-container01 #CategoriesProduct-section-c-01-subcontainer{
+    padding-right: 20px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+
+}
+
+#CategoriesProduct-section-container01 #CategoriesProduct-section-c-01-subcontainer div{
+    color: rgb(116, 197, 17);
+}
+
+#CategoriesProduct-section-container01 input[type="radio"]{
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+#Featured-products-containers{
+    margin-top: 30px;
+    display: flex;
+
+}
+
+#Featured-products-containers-left img{
+    width: 100px;
+}
+
+#Featured-products-containers-right h3{
+    margin-left: 10px;
+}
+
+#Featured-products-containers-right img{
+    width: 100px;
+}
+
+#Featured-products-containers-right p{
+    color: #565c61;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 10px;
+} 
+
+#Featured-products-containers-right p del{
+    margin-left: 5px;
+    font-weight: bold;
+    color: red;
+}
+
+#Featured-products-containers-button{
+    margin-top: 30px;
+
+    padding: 10px 0px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    color: rgb(116, 197, 17);
+    background-color: #fff;
+    width: 80%;
+    margin-bottom: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+
+
+#Featured-products-containers-button:hover{
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+}
+
+#Featured-products-banner img{
+    width: 280px;
+}
+
+
+#Featured-products-banner h2{
+    position: absolute;
+    color: orange;
+    font-size: xx-large;
+    width: 280px;
+    height: 330px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+
+#progress-container {
+    margin-left: 10px;
+    position: relative;
+    width: 200px;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#progress-button {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(116, 197, 17);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+#amount {
+    font-size: 18px;
+}
+
+#CategoriesProduct-section-container02{
+    width: 70%;
+
+}
+
+
+#CategoriesProduct-section-container02-fruits-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  
+  #Fruits-container01 {
+    margin-left: 20px;
+    border: 2px solid green;
+    width: 250px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding-bottom: 20px;
+  
+  
+  
+  }
+  
+  #Fruits-container01 h4 {
+    z-index: 1;
+    position: absolute;
+    background-color: orange;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+  
+  
+  }
+  
+  #Fruits-container01:hover {
+    box-shadow: 1px 5px 5px 7px rgb(235, 235, 235);
+  }
+  
+  #Fruits-container01 img {
+    overflow: hidden;
+    width: 248px;
+    height: 200px;
+    transition: all 0.5s ease-in;
+  
+  }
+  
+  #Fruits-container01 img:hover {
+    transform: scale(1.1, 1.1);
+  
+  
+  }
+  
+  #Fruits-container01 div i {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 8px;
+    color: rgb(116, 197, 17);
+  
+  }
+  
+  #Fruits-container01 button {
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(116, 197, 17);
+    border: 1.5px solid orange;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -211,149 +525,149 @@ body {
 
 /* Footer section */
 
-#footer-section{
+#footer-section {
     margin-top: 100px;
     width: 100vw;
-    background-color:#5f6870;
-  }
-  
-  #footer-section-container01{
+    background-color: #5f6870;
+}
+
+#footer-section-container01 {
     padding-top: 40px;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 30px;
-  }
-  
-  #footer-section-subcontainer01 h1{
+}
+
+#footer-section-subcontainer01 h1 {
     color: rgb(116, 197, 17);
     font-size: 40px;
-  
-  }
-  
-  #footer-section-subcontainer01 p{
+
+}
+
+#footer-section-subcontainer01 p {
     margin-top: 5px;
     color: orange;
     font-size: large;
-  }
-  
-  #footer-section-subcontainer02 input{
+}
+
+#footer-section-subcontainer02 input {
     border-radius: 20px;
     width: 400px;
     padding: 10px 15px;
     border: 2px solid rgb(116, 197, 17);
-  
-  }
-  
-  #footer-section-subcontainer02 button{
+
+}
+
+#footer-section-subcontainer02 button {
     padding: 10px 20px;
     border-radius: 20px;
     background-color: rgb(116, 197, 17);
     color: #fff;
     border: 2px solid rgb(116, 197, 17);
-  }
-  
-  #footer-section-subcontainer03{
+}
+
+#footer-section-subcontainer03 {
     display: flex;
     gap: 20px;
-  }
-  
-  #footer-section-subcontainer03 i{
+}
+
+#footer-section-subcontainer03 i {
     border: 1px solid orange;
     border-radius: 50%;
     padding: 10px;
     color: orange;
     font-size: large;
-  }
-  
-  #footer-section-subcontainer03 i:hover{
+}
+
+#footer-section-subcontainer03 i:hover {
     color: #fff;
-  }
-  
-  
-  #footer-section-container02{
+}
+
+
+#footer-section-container02 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #fff;
     padding-top: 20px;
-  
-  }
-  
-  #footer-section-subcontainer02-01{
+
+}
+
+#footer-section-subcontainer02-01 {
     width: 20vw;
-  }
-  
-  #footer-section-subcontainer02-01 p{
+}
+
+#footer-section-subcontainer02-01 p {
     margin-top: 10px;
     margin-bottom: 20px;
     color: rgb(189, 189, 189);
-  }
-  
-  #footer-section-subcontainer02-01 button{
+}
+
+#footer-section-subcontainer02-01 button {
     margin-top: 20px;
     padding: 10px 20px;
     border-radius: 20px;
-    border: 1px solid  orange;
-    color:  rgb(116, 197, 17);
-    background-color:#5f6870;
-  
-  
-  }
-  
-  #footer-section-subcontainer02-02 ul{
+    border: 1px solid orange;
+    color: rgb(116, 197, 17);
+    background-color: #5f6870;
+
+
+}
+
+#footer-section-subcontainer02-02 ul {
     list-style: none;
-  
-  }
-  
-  #footer-section-subcontainer02-02 ul li {
+
+}
+
+#footer-section-subcontainer02-02 ul li {
     cursor: pointer;
-  
+
     padding-top: 10px;
-  }
-  
-  #footer-section-subcontainer02-02 ul li a{
+}
+
+#footer-section-subcontainer02-02 ul li a {
     text-decoration: none;
     color: rgb(193, 193, 193);
-    
-  }
-  
-  #footer-section-subcontainer02-02 ul li a:hover{
+
+}
+
+#footer-section-subcontainer02-02 ul li a:hover {
     color: orange;
-  }
-  
-  #footer-section-subcontainer02-03 {
+}
+
+#footer-section-subcontainer02-03 {
     margin-top: 25px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  
-  #footer-section-subcontainer02-03 div img{
+}
+
+#footer-section-subcontainer02-03 div img {
     margin-top: 10px;
     width: 250px;
-  }
-  
-  #footer-section-container03{
+}
+
+#footer-section-container03 {
     display: flex;
     padding: 25px 45px;
     justify-content: space-between;
     color: rgb(199, 199, 199);
-  
-  }
-  
-  #footer-section-container03 div span{
+
+}
+
+#footer-section-container03 div span {
     color: white;
     font-size: large;
     font-weight: 600;
-    
-  }
-  
-  #footer-section-container03 div b{
+
+}
+
+#footer-section-container03 div b {
     color: rgb(116, 197, 17);
     text-decoration: underline;
-  }
+}
 
 /* ********************************************************************************************                                  Responsive for Mobile **************************************************************************************** */
 
@@ -479,15 +793,294 @@ body {
         font-size: x-large;
     }
 
+
+
+
+
+
+    /* shop banner section styling */
+
+
+    #shop-banner-section {
+        width: 100vw;
+        margin-top: 80px;
+        /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+        margin-bottom: 50px;
+    }
+
+    #shop-banner-section img {
+        position: absolute;
+        height: 170px;
+        width: 100%;
+        z-index: -1;
+
+    }
+
+    #shop-banner-section h3 {
+        font-size: xx-large;
+        color: #fff;
+        font-weight: bold;
+
+        width: 100%;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Fresh-fruits-search-section */
+
+    #Fresh-fruits-search-section {
+        width: 100%;
+    }
+
+    #Fresh-fruits-search-section h1 {
+        padding-left: 20px;
+        font-size: xx-large;
+        font-weight: 800;
+        color: #47535d;
+
+    }
+
+    #Fresh-fruits-search-section-container01 {
+        padding: 0px;
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+
+
+    }
+
+    #Fresh-fruits-search-section-search-bar {
+        width: 90%;
+    }
+
+    #Fresh-fruits-search-section-search-bar input {
+        width: 100%;
+        font-size: large;
+        border: 1px solid #606d79;
+        border-radius: 5px;
+
+    }
+
+    #Fresh-fruits-search-section-search-bar i {
+        width: 85%;
+        position: absolute;
+
+    }
+
+    #Fresh-fruits-search-section-Category {
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid grey;
+        border-radius: 5px;
+        width: 90%;
+        background-color: rgb(248, 248, 248);
+    }
+
+    #Fresh-fruits-search-section-Category #DefaultSorting {
+        background-color: rgb(248, 248, 248);
+
+        padding-left: 10px;
+        border: none;
+    }
+
+    #CategoriesProduct-section{
+        margin-top: 30px;
+        width: 100vw;
+    }
+
+    #CategoriesProduct-section-container{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    #CategoriesProduct-section-container01{
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    #Featured-products-containers{
+        width: 90%;
+        margin-top: 30px;
+        display: flex;
+    
+
+    }
+    
+    #Featured-products-containers-left img{
+        width: 100px;
+    }
+    
+    #Featured-products-containers-right h3{
+        margin-left: 10px;
+    }
+    
+    #Featured-products-containers-right img{
+        width: 100px;
+    }
+    
+    #Featured-products-containers-right p{
+        color: #565c61;
+        font-weight: bolder;
+        font-size: larger;
+        margin-left: 10px;
+    } 
+    
+    #Featured-products-containers-right p del{
+        margin-left: 5px;
+        font-weight: bold;
+        color: red;
+    }
+    
+    #Featured-products-containers-button{
+        margin-top: 30px;
+    
+        padding: 10px 0px;
+        border-radius: 30px;
+        border: 1px solid orange;
+        color: rgb(116, 197, 17);
+        background-color: #fff;
+        width: 90%;
+        margin-bottom: 30px;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 550;
+    }
+    
+    
+    
+    #Featured-products-containers-button:hover{
+        background-color: orange;
+        border: 2px solid orange;
+        color: white;
+    }
+    
+    #Featured-products-banner img{
+        border-radius:20px ;
+        width: 90%;
+        height: 350px;
+    }
+    
+    
+    #Featured-products-banner h2{
+        position: absolute;
+        color: orange;
+        font-size: xx-large;
+        width: 80%;
+        height: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+}
+
+#CategoriesProduct-section-container02{
+    width: 100%;
+
+}
+
+
+#CategoriesProduct-section-container02-fruits-container {
+  
+    margin-top: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    row-gap: 30px;
+  }
+  
+  #Fruits-container01 {
+    margin-left: 20px;
+    width: 250px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding-bottom: 20px;
+  
+  
+  
+  }
+  
+  #Fruits-container01 h4 {
+    z-index: 1;
+    position: absolute;
+    background-color: orange;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+  
+  
+  }
+  
+  #Fruits-container01:hover {
+    box-shadow: 1px 5px 5px 7px rgb(235, 235, 235);
+  }
+  
+  #Fruits-container01 img {
+    overflow: hidden;
+    width: 248px;
+    height: 200px;
+    transition: all 0.5s ease-in;
+  
+  }
+  
+  #Fruits-container01 img:hover {
+    transform: scale(1.1, 1.1);
+  
+  
+  }
+  
+  #Fruits-container01 div i {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 8px;
+    color: rgb(116, 197, 17);
+  
+  }
+  
+  #Fruits-container01 button {
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(116, 197, 17);
+    border: 1.5px solid orange;
+  }
+
+
     /* Footer section styling */
 
-    #footer-section{
+    #footer-section {
         margin-top: 100px;
         width: 100%;
-        background-color:#5f6870;
-      }
-      
-      #footer-section-container01{
+        background-color: #5f6870;
+    }
+
+    #footer-section-container01 {
         padding-top: 40px;
         padding-left: 20px;
         width: 100vw;
@@ -497,57 +1090,57 @@ body {
         justify-content: center;
         padding-bottom: 30px;
         row-gap: 40px;
-      
-      }
-      
-      #footer-section-subcontainer01 h1{
+
+    }
+
+    #footer-section-subcontainer01 h1 {
         color: rgb(116, 197, 17);
         font-size: 30px;
-      
-      }
-      
-      #footer-section-subcontainer01 p{
+
+    }
+
+    #footer-section-subcontainer01 p {
         margin-top: 5px;
         color: orange;
         font-size: large;
-      }
-      
-      #footer-section-subcontainer02 input{
+    }
+
+    #footer-section-subcontainer02 input {
         border-radius: 20px;
         width: 300px;
         padding: 10px 15px;
         border: 2px solid rgb(116, 197, 17);
-      
-      }
-      
-      #footer-section-subcontainer02 button{
+
+    }
+
+    #footer-section-subcontainer02 button {
         margin-top: 20px;
         padding: 10px 20px;
         border-radius: 20px;
         background-color: rgb(116, 197, 17);
         color: #fff;
         border: 2px solid rgb(116, 197, 17);
-      }
-      
-      #footer-section-subcontainer03{
+    }
+
+    #footer-section-subcontainer03 {
         display: flex;
         gap: 20px;
-      }
-      
-      #footer-section-subcontainer03 i{
+    }
+
+    #footer-section-subcontainer03 i {
         border: 1px solid orange;
         border-radius: 50%;
         padding: 10px;
         color: orange;
         font-size: large;
-      }
-      
-      #footer-section-subcontainer03 i:hover{
+    }
+
+    #footer-section-subcontainer03 i:hover {
         color: #fff;
-      }
-      
-      
-      #footer-section-container02{
+    }
+
+
+    #footer-section-container02 {
         padding-left: 20px;
         display: flex;
         flex-direction: column;
@@ -555,97 +1148,98 @@ body {
         align-items: center;
         color: #fff;
         padding-top: 20px;
-      
-      }
-      
-      #footer-section-subcontainer02-01{
+
+    }
+
+    #footer-section-subcontainer02-01 {
         width: 100%;
-      }
-      
-      #footer-section-subcontainer02-01 p{
+    }
+
+    #footer-section-subcontainer02-01 p {
         margin-top: 10px;
         margin-bottom: 20px;
         color: rgb(189, 189, 189);
-      }
-      
-      #footer-section-subcontainer02-01 button{
+    }
+
+    #footer-section-subcontainer02-01 button {
         margin-top: 20px;
         padding: 10px 20px;
         border-radius: 20px;
-        border: 1px solid  orange;
-        color:  rgb(116, 197, 17);
-        background-color:#5f6870;
-      
-      
-      }
-      
-      #footer-section-subcontainer02-02{
+        border: 1px solid orange;
+        color: rgb(116, 197, 17);
+        background-color: #5f6870;
+
+
+    }
+
+    #footer-section-subcontainer02-02 {
         margin-top: 30px;
         margin-left: -180px;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: start;
-      }
-      #footer-section-subcontainer02-02 ul{
+    }
+
+    #footer-section-subcontainer02-02 ul {
         list-style: none;
-      
-      }
-      
-      #footer-section-subcontainer02-02 ul li {
+
+    }
+
+    #footer-section-subcontainer02-02 ul li {
         cursor: pointer;
-      
+
         padding-top: 10px;
-      }
-      
-      #footer-section-subcontainer02-02 ul li a{
+    }
+
+    #footer-section-subcontainer02-02 ul li a {
         text-decoration: none;
         color: rgb(193, 193, 193);
-        
-      }
-      
-      #footer-section-subcontainer02-02 ul li a:hover{
+
+    }
+
+    #footer-section-subcontainer02-02 ul li a:hover {
         color: orange;
-      }
-      
-      #footer-section-subcontainer02-03 {
+    }
+
+    #footer-section-subcontainer02-03 {
         margin-left: -70px;
-      
+
         margin-top: 25px;
         display: flex;
         flex-direction: column;
         justify-content: start;
         gap: 20px;
-      }
-      
-      #footer-section-subcontainer02-03 div img{
+    }
+
+    #footer-section-subcontainer02-03 div img {
         margin-top: 10px;
         width: 250px;
-      
-      }
-      
-      #footer-section-container03{
+
+    }
+
+    #footer-section-container03 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 20px;
         color: rgb(199, 199, 199);
-      
-      }
-      
-      
-      #footer-section-container03 div span{
+
+    }
+
+
+    #footer-section-container03 div span {
         margin-right: 10px;
         color: white;
         font-size: large;
         font-weight: 600;
-        
-      }
-      
-      #footer-section-container03 div b{
+
+    }
+
+    #footer-section-container03 div b {
         color: rgb(116, 197, 17);
         text-decoration: underline;
-      }
+    }
 
 }
