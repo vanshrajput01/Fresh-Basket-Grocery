@@ -496,6 +496,40 @@ body {
     border: 1.5px solid orange;
   }
 
+  /* after-CategoriesProduct-section */
+
+#after-CategoriesProduct-section{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+#after-CategoriesProduct-section-container01{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+#after-CategoriesProduct-section-container01 span{
+    border:1px solid orange;
+    border-radius: 10px;
+
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+#after-CategoriesProduct-section-container01 #span01{
+    background-color:  rgb(116, 197, 17);
+    color: white;
+
+}
+
+#after-CategoriesProduct-section-container01 span:hover{
+    background-color:  rgb(116, 197, 17);
+    color: white;
+}
+
 
 
 
@@ -1070,6 +1104,39 @@ body {
     color: rgb(116, 197, 17);
     border: 1.5px solid orange;
   }
+
+  
+#after-CategoriesProduct-section{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+#after-CategoriesProduct-section-container01{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+#after-CategoriesProduct-section-container01 span{
+    border:1px solid orange;
+    border-radius: 10px;
+
+    padding: 8px 15px;
+    margin-left: 5px;
+}
+
+#after-CategoriesProduct-section-container01 #span01{
+    background-color:  rgb(116, 197, 17);
+    color: white;
+
+}
+
+#after-CategoriesProduct-section-container01 span:hover{
+    background-color:  rgb(116, 197, 17);
+    color: white;
+}
 
 
     /* Footer section styling */
