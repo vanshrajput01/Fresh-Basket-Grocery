@@ -220,27 +220,27 @@ body {
 
 /* shopDetails-product-section */
 
-#shopDetails-product-section{
+#shopDetails-product-section {
     margin-top: 100px;
     width: 100vw;
 }
 
 
-#shopDetails-product-section-main-container{
+#shopDetails-product-section-main-container {
     width: 100vw;
     display: flex;
 
 
 }
 
-#shopDetails-product-section-container01{
+#shopDetails-product-section-container01 {
     width: 71%;
 
 
 
 }
 
-#shopDetails-product-c01-subcontainer{
+#shopDetails-product-c01-subcontainer {
     margin-top: 30px;
     width: 100%;
     display: flex;
@@ -250,19 +250,19 @@ body {
 
 }
 
-#shopDetails-product-c01-subcontainer01{
+#shopDetails-product-c01-subcontainer01 {
     display: flex;
     width: 45%;
 }
 
 
 
-#shopDetails-product-c01-subcontainer01 img{
+#shopDetails-product-c01-subcontainer01 img {
     width: 420px;
     border-radius: 20px;
 }
 
-#shopDetails-product-c01-subcontainer02{
+#shopDetails-product-c01-subcontainer02 {
     padding-left: 30px;
     width: 50%;
     display: flex;
@@ -272,29 +272,31 @@ body {
 
 }
 
-#shopDetails-product-c01-subcontainer02 h1{
+#shopDetails-product-c01-subcontainer02 h1 {
     color: #505b65;
     font-size: 30px;
 }
 
-#shopDetails-product-c01-subcontainer02 img{
+#shopDetails-product-c01-subcontainer02 img {
     width: 100px;
     margin-left: -10px;
 }
-#shopDetails-product-c01-subcontainer02 div{
+
+#shopDetails-product-c01-subcontainer02 div {
     margin-top: 20px;
 }
 
-#shopDetails-product-c01-subcontainer02 div i{
+#shopDetails-product-c01-subcontainer02 div i {
     position: absolute;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    color: rgb(116, 197, 17);;
+    color: rgb(116, 197, 17);
+    ;
 
 }
 
-#shopDetails-product-c01-subcontainer02 div button{
+#shopDetails-product-c01-subcontainer02 div button {
     padding: 8px 35px;
     border-radius: 20px;
     background-color: #fff;
@@ -303,7 +305,7 @@ body {
     font-weight: 600;
 }
 
-#shopDetails-product-c01-subcontainer02 div button:hover{
+#shopDetails-product-c01-subcontainer02 div button:hover {
     background-color: rgb(255, 191, 64);
 
 }
@@ -318,7 +320,7 @@ body {
 
 
 
-#shopDetails-product-section-container02{
+#shopDetails-product-section-container02 {
     padding-left: 20px;
     width: 25%;
 
@@ -337,7 +339,7 @@ body {
 
 }
 
-#Fresh-fruits-search-section-search-bar i{
+#Fresh-fruits-search-section-search-bar i {
     margin-top: 30px;
     position: absolute;
     width: 230px;
@@ -350,7 +352,7 @@ body {
 
 
 
-#shopDetails-product-section-container02 #shopDetails-product-section-c-02-subcontainer{
+#shopDetails-product-section-container02 #shopDetails-product-section-c-02-subcontainer {
     padding-right: 20px;
     display: flex;
     margin-top: 15px;
@@ -358,48 +360,48 @@ body {
 
 }
 
-#shopDetails-product-section-container02 #shopDetails-product-section-c-02-subcontainer div{
+#shopDetails-product-section-container02 #shopDetails-product-section-c-02-subcontainer div {
     color: rgb(116, 197, 17);
 }
 
-#shopDetails-product-section-container02 input[type="radio"]{
+#shopDetails-product-section-container02 input[type="radio"] {
     margin-top: 10px;
     padding: 10px 0px;
 }
 
-#Featured-products-containers{
+#Featured-products-containers {
     margin-top: 30px;
     display: flex;
 
 }
 
 
-#Featured-products-containers-left img{
+#Featured-products-containers-left img {
     width: 100px;
 }
 
-#Featured-products-containers-right h3{
+#Featured-products-containers-right h3 {
     margin-left: 10px;
 }
 
-#Featured-products-containers-right img{
+#Featured-products-containers-right img {
     width: 100px;
 }
 
-#Featured-products-containers-right p{
+#Featured-products-containers-right p {
     color: #565c61;
     font-weight: bolder;
     font-size: larger;
     margin-left: 10px;
-} 
+}
 
-#Featured-products-containers-right p del{
+#Featured-products-containers-right p del {
     margin-left: 5px;
     font-weight: bold;
     color: red;
 }
 
-#Featured-products-containers-button{
+#Featured-products-containers-button {
     margin-top: 30px;
 
     padding: 10px 0px;
@@ -416,19 +418,19 @@ body {
 
 
 
-#Featured-products-containers-button:hover{
+#Featured-products-containers-button:hover {
     background-color: orange;
     border: 2px solid orange;
     color: white;
 }
 
 
-#Featured-products-banner img{
+#Featured-products-banner img {
     width: 280px;
 }
 
 
-#Featured-products-banner h2{
+#Featured-products-banner h2 {
     position: absolute;
     color: orange;
     font-size: xx-large;
@@ -437,7 +439,7 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
-    
+
 }
 
 
@@ -474,7 +476,7 @@ body {
 
 /* ShopDetails-silder-section */
 
-#ShopDetails-silder-section{
+#ShopDetails-silder-section {
     margin-top: 100px;
     width: 100vw;
 
@@ -484,7 +486,7 @@ body {
     margin-bottom: 30px;
 }
 
-#ShopDetails-silder-section-heading h1{
+#ShopDetails-silder-section-heading h1 {
     margin-left: 30px;
     font-size: 45px;
     color: #505b65;
@@ -492,62 +494,62 @@ body {
 
 }
 
-  
+
 .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
-  
-  }
-  
-  #swiper-slide-container01 {
+
+}
+
+#swiper-slide-container01 {
     width: 260px;
     height: 450px;
     overflow: hidden;
     border: 1.5px solid rgb(116, 197, 17);
     padding-bottom: 20px;
     border-radius: 20px;
-  
-  
-  
-  }
 
-  #swiper-slide-container01:hover{
+
+
+}
+
+#swiper-slide-container01:hover {
     box-shadow: 1px 25px 25px 10px rgb(234, 234, 234);
 
-  }
-  
-  #swiper-slide-container01 h4 {
+}
+
+#swiper-slide-container01 h4 {
     z-index: 1;
     position: absolute;
-  
+
     margin-left: 50px;
     margin-top: -130px;
-  
+
     background-color: rgb(116, 197, 17);
-  
+
     padding: 5px 20px;
     color: white;
     border-radius: 10px;
-  
-  
-  }
-  
-  
-  #swiper-slide-container01-01 {
+
+
+}
+
+
+#swiper-slide-container01-01 {
     display: flex;
     justify-content: center;
     align-items: center;
     align-items: center;
     text-align: start;
     width: 260px;
-  
+
     height: 200px;
-  
-  }
-  
-  #swiper-slide-container01-02 {
-  
+
+}
+
+#swiper-slide-container01-02 {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -556,40 +558,103 @@ body {
     gap: 8px;
     width: 240px;
     height: 230px;
-  }
-  
-  #swiper-slide-container01-01 img {
-  
+}
+
+#swiper-slide-container01-01 img {
+
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 260px;
     height: 200px;
     transition: all 0.5s ease-in;
-  }
+}
 
-  #swiper-slide-container01-01 img:hover{
+#swiper-slide-container01-01 img:hover {
     transform: scale(1.1, 1.1);
-  }
-  
-  
-  
-  
-  
-  #swiper-slide-container01-02 div i {
+}
+
+
+
+
+
+#swiper-slide-container01-02 div i {
     position: absolute;
     padding-left: 10px;
     padding-top: 8px;
     color: rgb(116, 197, 17);
-  
-  }
-  
-  #swiper-slide-container01-02 button {
+
+}
+
+#swiper-slide-container01-02 button {
     padding: 5px 30px;
     border-radius: 20px;
     background-color: white;
     color: rgb(116, 197, 17);
     border: 1.5px solid orange;
-  }
+}
+
+
+/* descriptionAndReviews */
+
+#description-Reviews-container {
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 90%;
+}
+
+#description-Reviews-container hr {
+    margin-top: 5px;
+}
+
+#description-Reviews-container p {
+    margin-top: 10px;
+}
+
+#descriptionAndReviews-container01-01{
+    margin-top: 50px;
+    width: 50%;
+
+}
+
+#description-Reviews-container-container02{
+    margin-top: 10px;
+}
+#description-Reviews-container-container02-s-01{
+    display: flex;
+    gap: 10px;
+}
+
+#description-Reviews-container-container02-s-01 div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5px;
+}
+#description-Reviews-container-container02-s-01 img{
+
+    width: 100px;
+    
+}
+
+#descriptionAndReviews-container01-01-div02 {
+    background-color: rgb(242, 242, 242);
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#descriptionAndReviews-container01-01-div01 {
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
 
 
 
@@ -889,7 +954,7 @@ body {
         font-size: x-large;
     }
 
-    
+
 
     /* shop banner section styling */
 
@@ -923,60 +988,72 @@ body {
 
     /* shopDetails-product-section */
 
-    #shopDetails-product-section{
+    #shopDetails-product-section {
         margin-top: 100px;
         width: 100vw;
     }
-    
-    
-    #shopDetails-product-section-main-container{
+
+
+    #shopDetails-product-section-main-container {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
-    
+
+
     }
-    
-    #shopDetails-product-section-container01{
+
+    #shopDetails-product-section-container01 {
         width: 100%;
+
+    }
+
+
+    #shopDetails-product-c01-subcontainer {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    #shopDetails-product-c01-subcontainer01 {
+        width: 100%;
+    }
+
+    #description-Reviews-container {
+        margin-left: 20px;
+        margin-top: 100px;
+        width: 90%;
+    }
+
+    #descriptionAndReviews-container01-01 {
+        margin-top: 50px;
+        width: 90%;
     
     }
 
-    
-#shopDetails-product-c01-subcontainer{
-    margin-top: 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    #shopDetails-product-c01-subcontainer02 {
+        margin-top: 30px;
+        padding-left: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
 
 
-}
-
-#shopDetails-product-c01-subcontainer01{
-    width: 100%;
-}
-
-#shopDetails-product-c01-subcontainer02{
-    margin-top: 30px;
-    padding-left: 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    }
 
 
-}
-
-    
-    #shopDetails-product-section-container02{
+    #shopDetails-product-section-container02 {
         margin-top: 50px;
         padding-left: 20px;
         width: 100%;
-    
+
     }
 
     #Fresh-fruits-search-section-search-bar {
@@ -997,42 +1074,42 @@ body {
 
     }
 
-    #Featured-products-containers{
+    #Featured-products-containers {
         width: 90%;
         margin-top: 30px;
         display: flex;
-    
+
 
     }
-    
-    #Featured-products-containers-left img{
+
+    #Featured-products-containers-left img {
         width: 100px;
     }
-    
-    #Featured-products-containers-right h3{
+
+    #Featured-products-containers-right h3 {
         margin-left: 10px;
     }
-    
-    #Featured-products-containers-right img{
+
+    #Featured-products-containers-right img {
         width: 100px;
     }
-    
-    #Featured-products-containers-right p{
+
+    #Featured-products-containers-right p {
         color: #565c61;
         font-weight: bolder;
         font-size: larger;
         margin-left: 10px;
-    } 
-    
-    #Featured-products-containers-right p del{
+    }
+
+    #Featured-products-containers-right p del {
         margin-left: 5px;
         font-weight: bold;
         color: red;
     }
-    
-    #Featured-products-containers-button{
+
+    #Featured-products-containers-button {
         margin-top: 30px;
-    
+
         padding: 10px 0px;
         border-radius: 30px;
         border: 1px solid orange;
@@ -1044,23 +1121,23 @@ body {
         cursor: pointer;
         font-weight: 550;
     }
-    
-    
-    
-    #Featured-products-containers-button:hover{
+
+
+
+    #Featured-products-containers-button:hover {
         background-color: orange;
         border: 2px solid orange;
         color: white;
     }
-    
-    #Featured-products-banner img{
-        border-radius:20px ;
+
+    #Featured-products-banner img {
+        border-radius: 20px;
         width: 90%;
         height: 350px;
     }
-    
-    
-    #Featured-products-banner h2{
+
+
+    #Featured-products-banner h2 {
         position: absolute;
         color: orange;
         font-size: xx-large;
@@ -1071,17 +1148,17 @@ body {
         justify-content: end;
         align-items: center;
 
-}
+    }
 
-/* ShopDetails-silder-section */
-#ShopDetails-silder-section-heading h1{
-    margin-left: 20px;
-    font-size:35px;
-    color: #505b65;
+    /* ShopDetails-silder-section */
+    #ShopDetails-silder-section-heading h1 {
+        margin-left: 20px;
+        font-size: 35px;
+        color: #505b65;
 
 
 
-}
+    }
 
 
 
