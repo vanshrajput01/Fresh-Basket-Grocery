@@ -7,6 +7,16 @@ const toggleNavBar = () =>{
   
 };
 
+const descriptionHeading = document.querySelector("#description-Reviews-container-heading01")
+const reviewsHeading = document.querySelector("#description-Reviews-container-heading02")
+
+const descriptionContainer = document.querySelector("#description-Reviews-container-container01") 
+
+const ReviewsContainer = document.querySelector("#description-Reviews-container-container02")
+
+
+
+
 mobile_nav.addEventListener("click",()=> toggleNavBar());
 
 
@@ -149,3 +159,24 @@ function myFunction() {
     });
   
   }
+
+descriptionHeading.addEventListener("click",showDescription)
+reviewsHeading.addEventListener("click",showReviews)
+
+function showDescription(){
+    descriptionHeading.style.color = "rgb(116, 197, 17)"
+    reviewsHeading.style.color = "black"
+
+    ReviewsContainer.style.display = "none"
+    descriptionContainer.style.display = "block"
+
+
+}
+
+function showReviews(){
+    descriptionHeading.style.color = "black"
+    reviewsHeading.style.color = "rgb(116, 197, 17)"
+    ReviewsContainer.style.display = "block"
+    descriptionContainer.style.display = "none"
+
+}
