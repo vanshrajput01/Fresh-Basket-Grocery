@@ -219,55 +219,129 @@ body {
 }
 
 
-/* Error-section */
+/* contact section */
 
-#Error-section{
+#contact-section{
     margin-top: 100px;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
-#Error-section-container{
-    text-align: center;
-    width: 40%;
+#contact-section-container{
+    width: 95%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
 }
 
-#Error-section-container h1{
-    color: #5f6870;
-    font-size: 50px;
-}
+#contact-section-container h1{
 
-#Error-section-container h1 span{
     font-size: 40px;
-}
-#Error-section-container h2{
-    font-size: 40px;
-    color: #5f6870;
+    color: rgb(116, 197, 17);
+    margin-bottom: 30px;
 }
 
+#form-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
-#Error-section-container p{
+form{
+    width: 95%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+#form-container01{
+    margin-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#form-container01 input{
     margin-top: 10px;
-    margin-bottom: 20px;
-}
-#Error-section-container button{
-    margin-top: 20px;
-    padding: 15px 30px;
-    border: 1px solid orange;
-    border-radius:30px;
-    font-size: 15px;
+    width: 95%;
+    margin-left: 10px;
+    padding: 10px 15px;
     background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+#form-container01 textarea{
+    margin-top: 15px;
+    width: 95%;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
 
 }
 
-#Error-section-container button:hover{
+#form-container01 button{
+    margin-left: 10px;
+    width: 95%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    background-color: #fff;
     border: 1px solid orange;
-    background-color: orange;
-    color: #fff;
+    color: orange;
+    margin-bottom: 30px;
+    font-weight: 600;
+
 }
 
+
+#form-container01 button:hover{
+    background-color: orange;
+    border: 1px solid orange;
+    color: #fff;
+
+}
+#form-container02{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+
+
+#form-container02-01{
+    border-radius: 10px;
+    padding: 30px 20px;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+
+}
+
+#form-container02-01 div img{
+    width: 40px;
+}
+
+
+#form-container02-01 div h2{
+    font-size: xx-large;
+    color: rgb(116, 197, 17);
+
+}
 
 
 
@@ -472,26 +546,16 @@ body {
         display: flex;
         justify-content: center;
         align-content: center;
+        background-color: white;
         margin-top: -15px;
 
         position: relative;
-        background-color: white;
         position: fixed;
         top: 0;
-        /* Position the navbar at the top of the page */
         width: 100%;
-        /* border: 1px solid rgb(210, 210, 210); */
         z-index: 999;
 
     }
-    
-#dropdownid button{
-    color:  rgb(116, 197, 17);
-  }
-
-  #myDropdown a{
-    color:  rgb(116, 197, 17);
-  }
 
 
     #nav-bar ul {
@@ -520,6 +584,13 @@ body {
         pointer-events: none;
     }
 
+    
+#dropdownid button{
+    color:  rgb(116, 197, 17);
+  }
+  #myDropdown a{
+    color:  rgb(116, 197, 17);
+  }
 
 
     #nav-bar ul li a {
@@ -547,9 +618,9 @@ body {
     .active .mobile-navbar-btn .fa-xmark {
         display: block;
         font-size: 2rem;
-        margin-top: 40px;
         color: rgb(116, 197, 17);
         margin-left: 100px;
+        margin-top: 40px;
 
     }
 
@@ -560,8 +631,9 @@ body {
 
 
     .fa-bars {
-        font-size: 2rem;
         margin-top: 40px;
+        font-size: 2rem;
+ 
         display: block;
         z-index: 999;
         color: rgb(116, 197, 17);
@@ -571,6 +643,7 @@ body {
     }
 
     #nav-icons {
+
 
         display: none;
     }
@@ -619,32 +692,136 @@ body {
     }
 
 
-    /* Error section styling */
-    #Error-section{
-        margin-top: 100px;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #Error-section-container{
-        text-align: center;
-        width: 90%;
-    }
-    
-    #Error-section-container h1{
-        color: #5f6870;
-        font-size: 50px;
-    }
-    
-    #Error-section-container h1 span{
-        font-size: 40px;
-    }
-    #Error-section-container h2{
-        font-size: 40px;
-        color: #5f6870;
-    }
+    /* contact section */
+
+#contact-section{
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact-section-container{
+    width: 95%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+}
+
+#contact-section-container h1{
+
+    font-size: 40px;
+    color: rgb(116, 197, 17);
+    margin-bottom: 30px;
+}
+
+#form-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form{
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center ;
+    gap: 20px;
+    align-items: center;
+
+}
+
+#form-container01{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#form-container01 input{
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+#form-container01 textarea{
+    margin-top: 15px;
+    width: 95%;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+#form-container01 button{
+    margin-left: 10px;
+    width: 95%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid orange;
+    color: orange;
+    margin-bottom: 30px;
+    font-weight: 600;
+
+}
+
+
+#form-container01 button:hover{
+    background-color: orange;
+    border: 1px solid orange;
+    color: #fff;
+
+}
+#form-container02{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+#form-container02-01{
+    border-radius: 10px;
+    padding: 30px 20px;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+
+}
+
+#form-container02-01 div img{
+    width: 40px;
+}
+
+
+#form-container02-01 div h2{
+    font-size: xx-large;
+    color: rgb(116, 197, 17);
+
+}
+
+
 
 
 

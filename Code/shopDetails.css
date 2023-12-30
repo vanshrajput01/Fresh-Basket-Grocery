@@ -950,6 +950,9 @@ body {
 
 
     #nav-bar {
+        display: flex;
+        justify-content: center;
+        align-content: center;
         margin-top: -15px;
 
         position: relative;
@@ -962,6 +965,11 @@ body {
         z-index: 999;
 
     }
+
+    
+#dropdownid button{
+    color:  rgb(116, 197, 17);
+  }
 
 
     #nav-bar ul {
@@ -1001,6 +1009,10 @@ body {
     #nav-bar ul li a:hover {
         color: black;
     }
+
+    #myDropdown a{
+        color:  rgb(116, 197, 17);
+      }
 
 
 
