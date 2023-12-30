@@ -97,22 +97,45 @@ productbtn02.addEventListener("click",showproduct02)
 productbtn03.addEventListener("click",showproduct03)
 
 function showproduct01(){
-  vegetableContainer.style.visibility =  "inherit"
-  fruitsContainer.style.visibility = "inherit"
-  vegetableContainer.style.marginTop = "40px"
+  vegetableContainer.style.display =  "block"
+  fruitsContainer.style.display = "block"
+  vegetableContainer.style.display = "flex"
+fruitsContainer.style.display = "flex"
+productbtn01.style.backgroundColor = "orange"
+productbtn01.style.color = "white"
+productbtn02.style.backgroundColor = "#ebebeb"
+productbtn02.style.color = "black"
+productbtn03.style.backgroundColor = "#ebebeb"
+productbtn03.style.color = "black"
+
+
+  // vegetableContainer.style.marginTop = "40px"
 }
 
 
 function showproduct02(){
-  vegetableContainer.style.visibility =  "inherit"
-  vegetableContainer.style.marginTop = "-430px"
-  fruitsContainer.style.visibility = "hidden"
+  vegetableContainer.style.display =  "block"
+  vegetableContainer.style.display = "flex"
+  fruitsContainer.style.display = "none"
+  productbtn01.style.backgroundColor = "#ebebeb"
+productbtn01.style.color = "black"
+productbtn02.style.backgroundColor = "orange"
+productbtn02.style.color = "white"
+productbtn03.style.backgroundColor = "#ebebeb"
+productbtn03.style.color = "black"
 }
 
 function showproduct03(){
-  vegetableContainer.style.visibility =  "hidden"
-  // vegetableContainer.style.marginTop = "-430px"
-  fruitsContainer.style.visibility = "inherit"
+  productbtn01.style.backgroundColor = "#ebebeb"
+  productbtn01.style.color = "black"
+  productbtn02.style.backgroundColor = "#ebebeb"
+  productbtn02.style.color = "black"
+  productbtn03.style.backgroundColor = "orange"
+  productbtn03.style.color = "white"
+  vegetableContainer.style.display =  "none"
+  fruitsContainer.style.display = "block"
+  fruitsContainer.style.display = "flex"
+
 }
 
 
